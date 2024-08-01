@@ -2,10 +2,10 @@ const request = require('supertest')
 const fs = require('fs')
 
 // Mock your application's environment variables
-process.env.API_KEY = 'test_api_key'
+process.env.API_KEY = 'AIzaCyXtvx1r_MxAucKTeVWc13npcopIfET7H_D'
 process.env.SESSIONS_PATH = './sessions_test'
 process.env.ENABLE_LOCAL_CALLBACK_EXAMPLE = 'TRUE'
-process.env.BASE_WEBHOOK_URL = 'http://localhost:3000/localCallbackExample'
+process.env.BASE_WEBHOOK_URL = 'http://localhost:3000/ideyou-whatsapp/webservices/callbacks/'
 
 const app = require('../src/app')
 jest.mock('qrcode-terminal')
